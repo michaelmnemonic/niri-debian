@@ -1,5 +1,8 @@
 {
-    "build": { "dockerfile": "./Dockerfile" },
+    "build": { 
+        "dockerfile": "./Dockerfile",
+        "cacheFrom": "ghcr.io/michaelmnemonic/niri-devcontainer"
+    },
 
     "customizations": {
         "vscode": {
