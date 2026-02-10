@@ -35,7 +35,6 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           imageName: ghcr.io/michaelmnemonic/debian
-          # cacheTo: type=inline  # This is the default value.
-          runCmd: sleep 1
+          cacheFrom: ghcr.io/michaelmnemonic/debian
           push: always
           platform: linux/amd64,linux/arm64
