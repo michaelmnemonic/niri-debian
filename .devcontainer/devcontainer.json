@@ -10,6 +10,5 @@
         }
     },
     "mounts": [
-        "type=bind,source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/root/.ssh,readonly"
     ]
 }
