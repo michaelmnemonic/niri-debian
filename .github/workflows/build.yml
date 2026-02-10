@@ -21,7 +21,7 @@ jobs:
                   cacheFrom: ghcr.io/michaelmnemonic/niri-devcontainer
                   push: never
                   runCmd: |
-                    cd ${{ github.workspace }}/niri/
+                    cd /workspaces/niri-debian/niri
                     cargo deb
 
             - name: Upload artifact
